@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: example_source # Имя источника (важно, чтобы оно совпадало с именем в модели)
+    database: example # Имя базы данных (если используется SQLite, это имя файла базы данных)
+    schema: main # Имя схемы (если нет схем, укажи как main)
+    tables:
+      - name: orders # Имя таблицы orders
+      - name: users # Имя таблицы users
